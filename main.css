@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* fixing environment code */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 77px;
+    font-weight: 700;
+    line-height: 87px;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #3b8df3;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+/* -----------Header Section and Navbar section */
+header{
+    padding: 0 100px;
+    background-color: #dbf4fe;
+}
+.navbar {
+padding: 0;
+}
+
+.navbar-nav li a{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 15px 30px !important;
+       
+}
+.navbar-nav li a:hover,.navbar-nav li :active{
+    color: #eb5e1c !important;
+     
+}
+
+/* -----------Hero section -------*/
+.hero-section{
+    padding: 80px 0;
+    background-color: #dbf4fe;
+    
+}
+.banner-txt{
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+.banner-txt h1{
+    font-size:65px;
+    line-height: 70px;
+    padding-top: 20px;  
+}
+
+/* --------about-section---------- */
+.about-section{
+    padding: 80px 0;
+}
+.about-title{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-title h4{
+    margin-bottom: 30px;
+}
+.about-title h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.about-boxes{
+    border: solid 2px #dbf4fe;
+    padding: 45px 15px;
+    text-align: center;
+}
+.font-icon{
+    font-size: 45px;
+    color: #3b8df3;
+    margin-bottom: 30px;
+}
+.about-boxes h3{
+    margin-bottom: 30px;
+}
+.about-boxes a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+}
+.about-boxes a span{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+/* --------service-section---------- */
+.service-section{
+    background-color: #f4fcff;
+    padding: 80px 0;
+}
+.service-txt{
+width: 90%;
+margin: 0 auto;
+}
+
+.service-txt h4{
+    margin-bottom: 15px;
+
+}
+.service-txt h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.service-txt a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+}
+.service-txt a span{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 3px;
+
+}
+/* ---------.testimonial-section------- */
+.testimonial-section{
+    padding: 80px 0;
+}
+.testimonial-title{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonial-title h4{
+    margin-bottom: 30px;
+}
+.testimonial-title h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.testimonial-card{
+    border: #dbf4fe 2px solid;
+    padding: 20px 15px;
+    position: relative;
+}
+.quote-icon-left, .quote-icon-right{
+    position: absolute;
+    color: #dbf4fe;
+    font-size: 45px;
+}
+.quote-icon-left{
+    top: 5px;
+    left: 20px;
+}
+.quote-icon-right{
+    bottom: 5px;
+    right: 20px;
+}
+
+.testimonial-row{
+    padding: 45px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    
+}
+
+.ratings i{
+    color: #ffba00;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.testimonial-content p{
+    font-style: italic;
+}
+.signature span {
+    display: block;
+    font-size: 13px;
+}
+.signature span:first-child {
+    font-weight: bold;
+}
+
+
+/* 
+-------footer-section 
+*/
+.footer-section{
+    background-color: #2b333e;  
+}
+.footer-top{
+    padding: 80px 0;
+}
+.footer-info{
+    padding: 15px 0;
+}
+.copy-rights {
+    color: #95999f;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+.footer-section p{
+    color: #7b8087;
+}
+
+
+.footer-section .info-heading{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.footer-list{
+    padding: 0;
+}
+.footer-list li{
+    display: block;
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: #7b8087;
+}
+.footer-list li a:hover{
+    color: #eb5e1c;
+}
+
+
+
+.social-media{
+    padding: 0;
+    margin: 0;
+    
+}
+.social-media li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.social-media li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 13px;
+
+    width: 40px;
+    line-height: 40px;
+    border: solid 1px #ffffff;
+    border-radius: 50%;
+    /* text-align: center; */
+}
+
+.social-media li a:hover{
+    color: #eb5e1c;
+}
+
+
+
+
+
+
+
+/* Mobile Responsive Code */
+@media (max-width:768px){
+    header{
+        padding: 0 10px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    
+    .navbar-toggler:hover{
+        color: #eb5e1c;
+    }
+    .navbar-toggler-icon{
+        height: auto;
+        
+    }
+
+
+    .banner-txt{
+        text-align: center;
+    }
+    .banner-txt h1{
+        font-size:45px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .about-title{
+        width: 90%;
+        margin: 0 auto;
+        /* text-align: center; */
+    }
+    .about-title h2{
+        font-size: 30px;
+        
+    }
+
+    .about-boxes{
+        margin-bottom: 15px;
+    }
+
+    .service-section{
+        padding: 60px 0;
+    }
+    .service-txt h2{
+        font-size: 30px;
+        
+    }
+
+    .testimonial-section{
+        padding: 50px 0;
+    }
+    .testimonial-title h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .testimonial-card{
+        margin-bottom: 20px;
+    }
+
+    .footer-top{
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* .footer-logos{
+        text-align: center;
+    }
+     */
+
+}
